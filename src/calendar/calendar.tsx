@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar } from 'primereact/calendar';
 import './index.scss';
 
-interface CalendarFieldProps {
+interface CalendarProps {
     placeholder?: string
     value?: any
     onChange?: Function
@@ -12,9 +12,9 @@ interface CalendarFieldProps {
     onClearButtonClick?: any
 }
 
-const CalendarField: React.FC<CalendarFieldProps> = (props) => {
+const CustomCalendar: React.FC<CalendarProps> = (props) => {
 
-    const onChange = (e: { originalEvent: Event, value: Date }): void => {
+    const onChange = (e: { originalEvent: Event, value: Date, target: any }): void => {
         if (props.onChange)
             props.onChange(e.originalEvent, e.value);
     }
@@ -35,4 +35,4 @@ const CalendarField: React.FC<CalendarFieldProps> = (props) => {
     )
 }
 
-export default CalendarField;
+export default CustomCalendar;
