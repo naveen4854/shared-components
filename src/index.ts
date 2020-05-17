@@ -4,7 +4,8 @@ import Card from './card';
 import DataTable from './data-table/data-table';
 import Select from './dropdown/select';
 import MultiSelect from './dropdown/multi-select';
-import Input from './input/input-field';
+import Input from './input/input-new';
+import InputOld from './input/input-field';
 import Paginator from './paginator/paginator';
 import Switch from './switch/switch';
 import TabMenu from './tab-menu/tab-menu';
@@ -21,5 +22,6 @@ export {
     MultiSelect,
     Calendar,
     Input,
-    Paginator
+    Paginator,
+    InputOld
 }
