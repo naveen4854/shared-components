@@ -1,6 +1,6 @@
 {
-  "short_name": "test-new",
-  "name": "test-new",
+  "short_name": "@naveen4854/shared-components",
+  "name": "@naveen4854/shared-components",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,6 +1,6 @@
 {
-  "name": "test-new-example",
-  "homepage": "https://naveen4854.github.io/test-new",
+  "name": "@naveen4854/shared-components-example",
+  "homepage": "https://naveen4854.github.io/@naveen4854/shared-components",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "test-new": "file:..",
+    "@naveen4854/shared-components": "file:..",
     "primereact": "file:../node_modules/primereact"
   },
   "scripts": {
