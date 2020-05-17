@@ -1,9 +1,6 @@
 import * as React from 'react'
 import styles from './styles.module.css'
 
-import Paper from 'material-ui/Paper'
-import RaisedButton from 'material-ui/RaisedButton'
-import TextField from 'material-ui/TextField'
 import { ToggleButton } from 'primereact/togglebutton';
 
 interface Props {
@@ -22,21 +19,6 @@ export const ExampleComponent = ({ text }: Props) => {
 
       <ToggleButton checked={state1.checked1} onChange={(e) => setState1({ checked1: e.value })} />
 
-
-      <Paper className={styles.container}>
-        <p>Example Material-UI Component: {text}</p>
-
-        <TextField
-          className={styles.textField}
-          floatingLabelText='TextField Example'
-          fullWidth={true}
-        />
-
-        <RaisedButton
-          label='RaisedButton Example'
-          primary={true}
-        />
-      </Paper>
     </React.Fragment>
   )
 }

@@ -25,7 +25,6 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "material-ui": "^0.20.2",
     "primereact": "^4.2.1",
     "classnames": "^2.2.6"
   },
@@ -39,6 +38,7 @@
     "@typescript-eslint/parser": "^2.26.0",
     "babel-eslint": "^10.0.3",
     "babel-plugin-external-helpers": "^6.22.0",
+    "classnames": "^2.2.6",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
@@ -55,6 +55,7 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
+    "primereact": "^4.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
@@ -67,6 +68,5 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
