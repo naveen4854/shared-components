@@ -1,10 +1,10 @@
 {
-  "name": "test-new",
-  "version": "1.0.0",
-  "description": "nav-test-crl",
+  "name": "@naveen4854/shared-components",
+  "version": "1.3.2",
+  "description": "Shared components",
   "author": "naveen4854",
   "license": "MIT",
-  "repository": "naveen4854/test-new",
+  "repository": "naveen4854",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -24,15 +24,21 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "material-ui": "^0.20.2",
+    "primereact": "^4.2.1",
+    "classnames": "^2.2.6"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
     "@types/jest": "^25.1.4",
+    "@types/material-ui": "^0.21.7",
     "@types/react": "^16.9.27",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-external-helpers": "^6.22.0",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
@@ -45,13 +51,22 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "material-ui": "^0.20.2",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "rollup": "^2.10.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.27.1"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+  }
 }
