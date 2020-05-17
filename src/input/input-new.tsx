@@ -1,4 +1,3 @@
-import { InputText } from 'primereact/inputtext';
 import React, { CSSProperties } from 'react';
 
 interface InputFieldProps {
