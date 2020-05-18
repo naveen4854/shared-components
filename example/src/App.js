@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import { ToggleButton } from '@naveen4854/shared-components'
-import '@naveen4854/shared-components/dist/index.css'
+import { ToggleButton } from '@naveen4854/react-components'
+import '@naveen4854/react-components/dist/index.css'
 
 
 const App = () => {

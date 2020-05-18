@@ -1,13 +1,13 @@
 {
-  "name": "@naveen4854/shared-components-example",
-  "homepage": "https://naveen4854.github.io/@naveen4854/shared-components",
+  "name": "@naveen4854/react-components-example",
+  "homepage": "https://naveen4854.github.io/@naveen4854/react-components",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "@naveen4854/shared-components": "file:.."
+    "@naveen4854/react-components": "file:.."
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
