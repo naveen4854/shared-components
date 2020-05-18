@@ -1,6 +1,6 @@
 import React from 'react';
-import { DataTable } from 'primereact/components/datatable/datatable';
-import { Column } from 'primereact/components/column/column';
+import { DataTable } from 'primereact/components/datatable/DataTable';
+import { Column } from 'primereact/components/column/Column';
 
 interface DataTableProps {
     value: any[],
@@ -15,6 +15,7 @@ interface DataTableProps {
     columnOptions?: { field: String, options: any }[]
     sortable?: boolean
 }
+
 
 const columnData = (rowData: any, fieldData: any, onCellClick: any, columnOptions: { field: String, options: any }[] | undefined) => {
     let nestedProps = fieldData.field ? fieldData.field.split('.') : [];

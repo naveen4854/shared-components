@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown } from 'primereact/components/dropdown/dropdown';
+import { Dropdown } from 'primereact/components/dropdown/Dropdown';
 
 interface SelectProps {
     name: string

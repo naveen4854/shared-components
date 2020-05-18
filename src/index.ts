@@ -12,6 +12,7 @@ import TabMenu from './components/tab-menu/tab-menu';
 import ToggleButton from './components/toggle-button';
 import Dialog from './components/dialog/dialog';
 import SideBar from './components/side-bar/side-bar';
+import Map from './components/map/map';
 
 import './resources/theme.css';
 import './resources/primereact.min.css';
@@ -30,5 +31,6 @@ export {
     Paginator,
     InputOld,
     Dialog,
-    SideBar
+    SideBar,
+    Map
 }

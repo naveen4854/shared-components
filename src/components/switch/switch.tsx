@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { InputSwitch } from 'primereact/components/inputswitch/inputswitch';
+import { InputSwitch } from 'primereact/components/inputswitch/InputSwitch';
 
 interface SwitchProps {
     name: string,

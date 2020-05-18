@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Sidebar } from 'primereact/components/sidebar/sidebar';
+import { Sidebar } from 'primereact/components/sidebar/Sidebar';
 
 interface CustomSideBarProps {
     visible: boolean

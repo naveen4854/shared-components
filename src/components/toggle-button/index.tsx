@@ -1,5 +1,5 @@
 import React, { useState, FC } from 'react';
-import { ToggleButton } from 'primereact/components/togglebutton/togglebutton';
+import { ToggleButton } from 'primereact/components/togglebutton/ToggleButton';
 
 interface ToggleProps {
     onLabel: string,

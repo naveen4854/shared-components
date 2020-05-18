@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
-import { Dialog } from 'primereact/components/dialog/dialog';
-import { Button } from '../..';
+import { Dialog } from 'primereact/components/dialog/Dialog';
+// import { Button } from '';
 
 interface CustomDialogProps {
     header: string
@@ -14,6 +14,7 @@ const CustomDialog: FC<CustomDialogProps> = ({ header }) => {
     const [displayBasic, setdisplayBasic] = useState(false);
 
     const onClose = () => {
+        setdisplayBasic(false)
         // setVisible(false);
         // if (onHide && open && style)
         //     onHide();
@@ -22,9 +23,9 @@ const CustomDialog: FC<CustomDialogProps> = ({ header }) => {
     debugger
     return (
         <React.Fragment>
-            <Button id='' name='' label={header} icon="pi pi-external-link" onClick={() => setdisplayBasic(true)} />
+            {/* <Button id='' name='' label={header} icon="pi pi-external-link" onClick={() => setdisplayBasic(true)} /> */}
 
-            {displayBasic && <Dialog header="Godfather I" visible={displayBasic}
+            {displayBasic && <Dialog header={header} visible={displayBasic}
                 style={{ width: '50vw' }}
                 onHide={onClose}
             >

@@ -1,5 +1,5 @@
-import { Paginator, PageState } from 'primereact/components/paginator/paginator';
 import React from 'react';
+import { Paginator, PageState } from 'primereact/components/paginator/Paginator';
 
 interface PaginatorProps {
     first?: number,
