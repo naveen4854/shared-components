@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'primereact/components/button/Button';
 
 interface SelectProps {
+    id: string
     name: string
     label: string
     icon?: string

@@ -10,6 +10,8 @@ import Paginator from './components/paginator/paginator';
 import Switch from './components/switch/switch';
 import TabMenu from './components/tab-menu/tab-menu';
 import ToggleButton from './components/toggle-button';
+import Dialog from './components/dialog/dialog';
+import SideBar from './components/side-bar/side-bar';
 
 import './resources/theme.css';
 import './resources/primereact.min.css';
@@ -26,5 +28,7 @@ export {
     Calendar,
     Input,
     Paginator,
-    InputOld
+    InputOld,
+    Dialog,
+    SideBar
 }
