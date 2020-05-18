@@ -5,9 +5,10 @@ import { Sidebar } from 'primereact/components/sidebar/sidebar';
 interface CustomSideBarProps {
     visible: boolean
     onHide: any
+    id: string
 }
 
-const CustomSideBar: FC<CustomSideBarProps> = ({ visible, onHide, children }) => {
+const CustomSideBar: FC<CustomSideBarProps> = ({ id, visible, onHide, children }) => {
 
     // const [show, setShow] = useState(visible);
 
@@ -17,7 +18,7 @@ const CustomSideBar: FC<CustomSideBarProps> = ({ visible, onHide, children }) =>
             onHide();
     }
     return (
-        <Sidebar id="navigationSidebar" visible={visible} onHide={onClose}>
+        <Sidebar id={id} visible={visible} onHide={onClose}>
             {children}
         </Sidebar>
 

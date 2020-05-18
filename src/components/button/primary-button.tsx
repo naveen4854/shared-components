@@ -9,6 +9,7 @@ interface SelectProps {
     iconPos?: string
     className?: string
     onClick: Function
+    disabled?: boolean
 }
 
 const CustomButton: React.FC<SelectProps> = (props) => {
@@ -21,7 +22,7 @@ const CustomButton: React.FC<SelectProps> = (props) => {
     const finalClass = "".concat(" ", props.className || " ", " ", "primary-button")
 
     return (
-        <Button id={"button_" + props.name} className={finalClass} label={props.label} onClick={click} />
+        <Button id={"button_" + props.name} className={finalClass} label={props.label} onClick={click} disabled={props.disabled} />
     )
 }
 
