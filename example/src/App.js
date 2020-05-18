@@ -1,25 +1,15 @@
 import React, { useState } from 'react'
 
-import { ExampleComponent } from '@naveen4854/shared-components'
+import { ToggleButton } from '@naveen4854/shared-components'
 import '@naveen4854/shared-components/dist/index.css'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+
 
 const App = () => {
+  const [state1, setState1] = React.useState({ checked1: true });
 
   return (
-    <MuiThemeProvider>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100vh'
-        }}
-      >
-        <ExampleComponent text="Create React Library Example 😄" />
-      </div>
-    </MuiThemeProvider>)
+    <ToggleButton checked={state1.checked1} onChange={(e) => setState1({ checked1: e.value })} />
+  )
 }
 
 export default App
