@@ -1,6 +1,6 @@
 import React from 'react';
-import { DataTable } from 'primereact/datatable';
-import { Column } from 'primereact/column';
+import { DataTable } from 'primereact/components/datatable/datatable';
+import { Column } from 'primereact/components/column/column';
 
 interface DataTableProps {
     value: any[],

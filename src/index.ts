@@ -11,6 +11,9 @@ import Switch from './switch/switch';
 import TabMenu from './tab-menu/tab-menu';
 import ToggleButton from './toggle-button';
 
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.min.css';
+
 export {
     TabMenu,
     DataTable,

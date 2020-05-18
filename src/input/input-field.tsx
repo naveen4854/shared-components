@@ -1,4 +1,4 @@
-import { InputText } from 'primereact/inputtext';
+import { InputText } from 'primereact/components/inputtext/InputText';
 import React, { CSSProperties } from 'react';
 
 interface InputFieldProps {

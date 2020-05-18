@@ -1,4 +1,4 @@
-import { Paginator, PageState } from 'primereact/paginator';
+import { Paginator, PageState } from 'primereact/components/paginator/paginator';
 import React from 'react';
 
 interface PaginatorProps {

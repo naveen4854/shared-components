@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TabMenu } from 'primereact/tabmenu';
+import { TabMenu } from 'primereact/components/tabmenu/tabmenu';
 
 export interface TabMenuProps {
     tabs: any[],

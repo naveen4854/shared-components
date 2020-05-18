@@ -1,6 +1,6 @@
 {
   "name": "@naveen4854/shared-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Shared components",
   "author": "naveen4854",
   "license": "MIT",
@@ -24,9 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "primereact": "^4.2.1",
-    "classnames": "^2.2.6"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.1.0",

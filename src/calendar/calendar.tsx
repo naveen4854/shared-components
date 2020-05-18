@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar } from 'primereact/calendar';
+import { Calendar } from 'primereact/components/calendar/Calendar';
 import './index.scss';
 
 interface CalendarProps {

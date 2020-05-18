@@ -1,5 +1,5 @@
 import React from 'react';
-import { MultiSelect } from 'primereact/multiselect';
+import { MultiSelect } from 'primereact/components/multiselect/multiselect';
 
 interface SelectProps {
     name: string

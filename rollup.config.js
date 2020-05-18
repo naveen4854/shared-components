@@ -23,6 +23,9 @@ export default {
         }
     ],
     plugins: [
+        // external({
+        //     includeDependencies: true
+        // }),
         peerDepsExternal(),
         resolve(
             {
@@ -32,10 +35,18 @@ export default {
                 }
             }
         ),
-        commonjs(),
+        commonjs(
+            {
+                include: 'node_modules/**',
+                namedExports: {
+                  'node_modules/primereact/button.js': ['Button']
+                }
+              }
+        ),
         typescript({ useTsconfigDeclarationDir: true }),
         sass({
             insert: true
         })
-    ]
+    ],
+    // external: ['primereact']
 };
